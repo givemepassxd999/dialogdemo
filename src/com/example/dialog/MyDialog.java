@@ -16,7 +16,7 @@ public class MyDialog extends Dialog {
 	private View back;
 	
 	public MyDialog(Context context) {
-        super(context, android.R.style.Theme_Light);
+        super(context, android.R.style.Theme_Black);
         mContext = context;
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().getAttributes().windowAnimations = R.style.dialog_animation;

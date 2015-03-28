@@ -2,6 +2,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/navi_bar"
+        android:background="#0000ff"
+        >
+        <View
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/navi_back"
+            android:background="@drawable/navi_icon_back2"
+            />
+    </RelativeLayout>
     <LinearLayout
 		android:id="@+id/fragment_container"
 		android:layout_width="match_parent"
