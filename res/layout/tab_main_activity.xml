@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/navi_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0000ff" >
+
+        <View
+            android:id="@+id/navi_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/navi_icon_back2" />
+    </RelativeLayout>
+	<TabHost 
+	    android:id="@android:id/tabhost"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    	<LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:padding="5dp">
+				<TabWidget
+			            android:id="@android:id/tabs"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content" />
+			    <FrameLayout
+		            android:id="@android:id/tabcontent"
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:padding="5dp" />
+	        </LinearLayout>
+    </TabHost>
+</LinearLayout>

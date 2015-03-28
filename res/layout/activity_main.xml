@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <Button
+	    
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_dialog"
+        android:text="show dialog"
+	    />
+    <Button
+        android:layout_toRightOf="@id/show_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_tab_dialog"
+        android:text="show tab dialog"
+        />
+	
+	<Button
+	    android:layout_below="@id/show_tab_dialog"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_new_activity"
+        android:text="show activity"
+	    />
+	<Button
+	    android:layout_below="@id/show_tab_dialog"
+	    android:layout_toRightOf="@id/show_new_activity"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_tab_activity"
+        android:text="show tab activity"
+	    />
+	<Button
+	    android:layout_below="@id/show_new_activity"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_fragment"
+        android:text="show fragment"
+	    />
+	<Button
+	    android:layout_below="@id/show_new_activity"
+	    android:layout_toRightOf="@id/show_fragment"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_tab_fragment"
+        android:text="show tab fragment"
+	    />
+</RelativeLayout>

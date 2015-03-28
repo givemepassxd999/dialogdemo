@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/navi_bar"
+        android:background="#0000ff"
+        >
+        <View
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/navi_back"
+            android:background="@drawable/navi_icon_back2"
+            />
+    </RelativeLayout>
+    <EditText
+        android:layout_width="100dp"
+    	android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/simple_button"
+    	android:text="show activity"
+        />
+
+</LinearLayout>
